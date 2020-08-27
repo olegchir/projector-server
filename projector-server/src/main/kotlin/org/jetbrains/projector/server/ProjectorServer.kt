@@ -310,7 +310,7 @@ class ProjectorServer private constructor(
         val mouseWheelEvent = createMouseWheelEvent(window, shiftedMessage, clientSettings.connectionMillis)
         laterInvokator(mouseWheelEvent)
       }
-
+//
       is ClientKeyEvent -> {
         val keyEventType = message.keyEventType.toAwtKeyEventId()
 
